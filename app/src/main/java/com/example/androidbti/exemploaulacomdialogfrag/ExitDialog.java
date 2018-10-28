@@ -39,6 +39,7 @@ public class ExitDialog extends DialogFragment implements DialogInterface.OnClic
         }
     }
 
+      // Verificar esse onExit
     public interface ExitListener{
         public void onExit();
     }
